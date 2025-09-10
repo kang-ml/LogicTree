@@ -20,3 +20,15 @@ __Main contributions:__
 <p align="center">
   <img src="overview.png" alt="overview" />
 </p>
+
+## Setup
+
+1. Set up [OpenAI API key](https://platform.openai.com/docs/overview) and store it in the environment variable `OPENAI_API_KEY`  (in [`run.py`](run.py#L15)).
+
+2. To run our code, please install all the packages by using the following command:
+```
+pip install -r requirement.txt
+```
+
+3. Our LLM prompting implementations are built upon the open-source contributions from [Microsoft Guidance](https://github.com/guidance-ai/guidance).
+
