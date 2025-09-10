@@ -45,7 +45,9 @@ python run.py \
   --double_check_deadend
 ```
 
-This runs the evaluation on the *ProofWriter* dataset, using the GPT‑4o model and SpaCy’s `en_core_web_lg`, over the first 10 samples with a query limit of 80. The datasets are stored in in [`dataset`](dataset) and the few-shot examples for each dataset are in [`prompt`](prompt). (Note: The system prompts for the LLM modules vary slightly across datasets, reflecting specific nuances and requirements of each dataset.)
+This runs the evaluation on the *ProofWriter* dataset, using the GPT‑4o model and SpaCy’s `en_core_web_lg`, over the first 10 samples with a query limit of 80. 
+
+The datasets are stored in in [`dataset`](dataset) and the few-shot examples for each dataset are in [`prompt`](prompt) (Note: The system prompts for the LLM modules vary slightly across datasets, reflecting specific nuances and requirements of each dataset).
 
 ## Citations
 Please cite the paper and star this repo if you find LogicTree interesting/useful, thanks! Feel free to open an issue if you have any questions.
