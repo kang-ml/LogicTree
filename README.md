@@ -32,3 +32,30 @@ pip install -r requirement.txt
 
 3. Our LLM prompting implementations are built upon the open-source contributions from [Microsoft Guidance](https://github.com/guidance-ai/guidance).
 
+## Run LogicTree
+
+Here is an example command:
+```bash
+python run.py \
+  --llm gpt-4o \
+  --spacy_model en_core_web_lg \
+  --dataset proofwriter \
+  --test_range 0 10 \
+  --max_queries 80 \
+  --double_check_deadend
+```
+
+This runs the evaluation on the *ProofWriter* dataset, using the GPT‑4o model and SpaCy’s `en_core_web_lg`, over the first 10 samples with a query limit of 80. The datasets are stored in in [`dataset`](dataset) and the few-shot examples for each dataset are in [`prompt`](prompt). (Note: The system prompts for the LLM modules vary slightly across datasets, reflecting specific nuances and requirements of each dataset.)
+
+## Citations
+Please cite the paper and star this repo if you find LogicTree interesting/useful, thanks! Feel free to open an issue if you have any questions.
+
+```bibtex
+@article{he2025logictree,
+  title={LogicTree: Structured Proof Exploration for Coherent and Rigorous Logical Reasoning with Large Language Models},
+  author={He, Kang and Roy, Kaushik},
+  journal={arXiv preprint arXiv:2504.14089},
+  year={2025}
+}
+```
+
