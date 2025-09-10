@@ -34,6 +34,8 @@ pip install -r requirement.txt
 
 ## Run LogicTree
 
+The runtime execution flow: [`run.py`](run.py) --> [`explore_from_root.py`](explore_from_root.py) --> [`recursion_dfs.py`](recursion_dfs.py).
+
 Here is an example command:
 ```bash
 python run.py \
