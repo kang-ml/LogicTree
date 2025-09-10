@@ -48,7 +48,7 @@ python run.py \
   --double_check_deadend
 ```
 
-This runs the evaluation on the *ProofWriter* dataset, using the GPT‑4o model and SpaCy’s `en_core_web_lg`, over the first 10 samples with a query limit of 80. 
+This runs the evaluation on the *ProofWriter* dataset, using the GPT‑4o model and SpaCy’s `en_core_web_lg`, over the first 10 samples with a query limit of 80. The trace of logical reasoning will be stored instantly in log file.
 
 The datasets are stored in [`dataset`](dataset) and the few-shot examples for each dataset are in [`prompt`](prompt) (Note: The system prompts of LLM modules vary slightly across datasets to account for dataset‑specific nuances).
 
