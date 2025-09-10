@@ -1,0 +1,6 @@
+guidance==0.1.16
+argparse==1.4.0
+spacy==3.8.2
+openai==1.55.3
+numpy>=1.22.4,<1.29.0
+rich<14.0.0
