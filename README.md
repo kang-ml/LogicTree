@@ -17,6 +17,7 @@ __Main contributions:__
 - Knowledge caching to reuse past reasoning and prevent redundancy.
 - Search optimization to simplify combinatorial search into linear process.
 
+A simplified overview:
 <p align="center">
   <img src="overview.png" alt="overview" />
 </p>
