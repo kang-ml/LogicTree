@@ -25,12 +25,12 @@ __Main contributions:__
 
 1. Set up [OpenAI API key](https://platform.openai.com/docs/overview) and store it in the environment variable `OPENAI_API_KEY`  (in [`run.py`](run.py#L15)).
 
-2. To run our code, please install all the packages by using the following command:
+2. To run our code, please install all required packages with:
 ```
 pip install -r requirement.txt
 ```
 
-3. Our LLM prompting implementations are built upon the open-source contributions from [Microsoft Guidance](https://github.com/guidance-ai/guidance).
+3. Our LLM prompting implementations build upon the open-source contributions from [Microsoft Guidance](https://github.com/guidance-ai/guidance).
 
 ## Run LogicTree
 
@@ -47,7 +47,7 @@ python run.py \
 
 This runs the evaluation on the *ProofWriter* dataset, using the GPT‑4o model and SpaCy’s `en_core_web_lg`, over the first 10 samples with a query limit of 80. 
 
-The datasets are stored in in [`dataset`](dataset) and the few-shot examples for each dataset are in [`prompt`](prompt) (Note: The system prompts for the LLM modules vary slightly across datasets, reflecting specific nuances and requirements of each dataset).
+The datasets are stored in [`dataset`](dataset) and the few-shot examples for each dataset are in [`prompt`](prompt) (Note: The system prompts of LLM modules vary slightly across datasets to account for dataset‑specific nuances).
 
 ## Citations
 Please cite the paper and star this repo if you find LogicTree interesting/useful, thanks! Feel free to open an issue if you have any questions.
