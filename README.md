@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  <img src="overview.pdf" alt="overview" />
+  <img src="overview.png" alt="overview" />
 </p>
 
 This is the implementation of the paper __LogicTree: Structured Proof Exploration for Coherent and Rigorous Logical Reasoning with Large Language Models__, published in EMNLP 2025 Main Conference.
